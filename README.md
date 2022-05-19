@@ -72,3 +72,16 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Postman
+request to this endpoint
+you can filter by:
+-limit (max 5)
+-filterBy (name of the field)
+-search (value of the field)
+GET
+https://reign-back.herokuapp.com/posts/?limit=5&search=makeitdouble&filterBy=author
+
+DELETE
+where _id is the primary key of the object
+https://reign-back.herokuapp.com/posts/_id
